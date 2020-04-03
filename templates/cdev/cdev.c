@@ -31,12 +31,18 @@ static ssize_t {dev_name}_write(struct file* file, const char* buf, size_t len, 
 static long {dev_name}_ioctl(struct file* file, unsigned int cmd, unsigned long arg) {
 
 	switch(cmd) {
-		case 1:
+		case IOCTL_FUNC1:
 			break;
+
+		case IOCTL_FUNC2:
+			break;
+
+		case IOCTL_FUNC3:
+			break;
+
 		default :
 			break;
 	}
-
 	return 0;
 }
 
