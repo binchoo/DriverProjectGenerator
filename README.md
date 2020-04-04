@@ -92,7 +92,7 @@ $ make cdev name=my_censor dest=..
 
 소스 코드 템플릿에서 디바이스의 개수를 요구하는 부분에 치환됩니다. 기본값은 `1`입니다. 
 
-`count `값이 삽입되는 함수는 3 종류입니다.
+`count` 값이 삽입되는 함수는 3 종류입니다.
 
 
 
@@ -239,7 +239,7 @@ $ make clean
 
 `{license}` <- license
 
-`{dev_vim count}` <- count
+`{dev_count}` <- count
 
 `{object_file}` <- cdev_`{dev_name}`.o
 
