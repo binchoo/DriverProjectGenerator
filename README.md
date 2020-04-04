@@ -144,7 +144,7 @@ $ make run={c소스파일}
 
 
 
-## <span style="color:#ff5c40">사용 시나리오</span>
+## 사용 시나리오 ![#ff5c40](https://placehold.it/15/f03c15/000000?text=+)
 
 드라이버 소스 코드 생성기의 용법을 익혔으니 
 
